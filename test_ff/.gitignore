@@ -1,0 +1,22 @@
+# 编译产物
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.obj
+
+# Python 虚拟环境
+.venv/
+
+# IDE 配置（每个人自己配）
+.vscode/
+.idea/
+
+# 本地脚本
+update_config.sh
+
+# 系统文件
+Thumbs.db
+Desktop.ini
