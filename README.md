@@ -9,7 +9,17 @@
 | 2026/07/11 | `test_engine` | ① 重构完整工程结构<br>② 封装 PID 模块和 VOFA 调试输出 |
 | 2026/07/10 | `test` | ① 上传电机基础测试代码<br>② 配置 VSCode 开发环境 |
 
+<p align="center">
+  <img width="600" alt="未加前馈" src="https://github.com/user-attachments/assets/986e1637-2c1e-41b6-8d3e-61c5e9b755c1" />
+</p>
+<p align="center"><b>图一：未加前馈</b> — 仅使用传统 PID 控制，存在明显的滞后与超调</p>
 
-<img width="1716" height="864" alt="Image" src="https://github.com/user-attachments/assets/986e1637-2c1e-41b6-8d3e-61c5e9b755c1" />
-<img width="1716" height="864" alt="Image" src="https://github.com/user-attachments/assets/d0ffcb9e-8303-458a-8d8e-bfee842e04dd" />
-<img width="1626" height="861" alt="Image" src="https://github.com/user-attachments/assets/94e804c1-dc6c-44a1-b7b1-dcbd26fcafee" />
+<p align="center">
+  <img width="600" alt="加前馈" src="https://github.com/user-attachments/assets/d0ffcb9e-8303-458a-8d8e-bfee842e04dd" />
+</p>
+<p align="center"><b>图二：加前馈</b> — 引入前馈 PID 后，响应速度明显提升，跟随误差大幅减小</p>
+
+<p align="center">
+  <img width="600" alt="Simulink仿真" src="https://github.com/user-attachments/assets/94e804c1-dc6c-44a1-b7b1-dbdc26fcafee" />
+</p>
+<p align="center"><b>图三：Simulink 仿真</b> — 通过 Simulink 整定出较优的前馈 PID 参数</p>
